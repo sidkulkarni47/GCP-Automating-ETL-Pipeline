@@ -1,0 +1,18 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "player_id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "player_name",
+      "type": "STRING"
+    },
+    {
+      "name": "country",
+      "type": "STRING"
+    }
+  ]
+}
+
+  

@@ -1,6 +1,6 @@
 # Project Report:Automating ETL Pipeline for Sports Data Analytics
 
-# #Overview
+# Overview
 This project automates the ETL pipeline for fetching cricket player rankings data, storing it in Google Cloud Storage (GCS), triggering a Dataflow job to load the data into BigQuery, and visualizing it using Looker Studio. The entire process is automated using Apache Airflow for seamless execution.
 Architecture Diagram
  
@@ -27,13 +27,6 @@ The Dataflow job processes the uploaded CSV file, transforming the data and load
 Looker Studio Visualization:
 Once the data is in BigQuery, Looker Studio is used to create interactive dashboards.
 •	Looker Configuration: Looker Studio is connected to BigQuery to visualize the cricket player rankings data.
-
-
-
-
-
-
-Looker Visualization
  
 Apache Airflow Automation
 The ETL pipeline is automated using Apache Airflow:
@@ -44,4 +37,4 @@ The ETL pipeline is automated using Apache Airflow:
    
 Conclusion:
 The ETL pipeline is fully automated using Apache Airflow, ensuring timely data retrieval, processing, and visualization. Data is fetched from the Cricbuzz API, processed, stored in GCS, and loaded into BigQuery for analysis. Looker Studio provides insights into cricket player rankings. The daily schedule and error handling mechanisms ensure the pipeline runs smoothly with minimal human intervention.
-![image](https://github.com/user-attachments/assets/8c4f8caf-f0d3-431a-a7aa-cf9eecdc2ce3)
+
